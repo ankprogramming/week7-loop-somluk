@@ -2,45 +2,58 @@
 
 using namespace std;
 
-int main () {
+int main ()
+{
 
-  // Without loop
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
-  cout << "*" << endl;
-  cout << "**" << endl;
-  cout << "***" << endl;
-  cout << "****" << endl;
-  cout << "*****" << endl;
-  cout << "******" << endl;
-  cout << "*****" << endl;
-  cout << "****" << endl;
-  cout << "***" << endl;
-  cout << "**" << endl;
-  cout << "*" << endl;
+    // Without loop
+    cout << "*" << endl;
+    cout << "**" << endl;
+    cout << "***" << endl;
+    cout << "****" << endl;
+    cout << "*****" << endl;
+    cout << "******" << endl;
+    cout << "*****" << endl;
+    cout << "****" << endl;
+    cout << "***" << endl;
+    cout << "**" << endl;
+    cout << "*" << endl;
+    cout << "*" << endl;
+    cout << "**" << endl;
+    cout << "***" << endl;
+    cout << "****" << endl;
+    cout << "*****" << endl;
+    cout << "******" << endl;
+    cout << "*****" << endl;
+    cout << "****" << endl;
+    cout << "***" << endl;
+    cout << "**" << endl;
+    cout << "*" << endl;
+    cout << "*" << endl;
+    cout << "**" << endl;
+    cout << "***" << endl;
+    cout << "****" << endl;
+    cout << "*****" << endl;
+    cout << "******" << endl;
+    cout << "*****" << endl;
+    cout << "****" << endl;
+    cout << "***" << endl;
+    cout << "**" << endl;
+    cout << "*" << endl;
 
-  // เขียนโปรแกรมให้ทำงานได้ตามข้างต้นโดยใช้ Loop
+    // เขียนโปรแกรมให้ทำงานได้ตามข้างต้นโดยใช้ Loop
 
-
-  return 0;
+    for(int i = 0; i < 30; i++)
+    {
+        cout << "**" << endl;
+        cout << "***" << endl;
+        cout << "****" << endl;
+        cout << "*****" << endl;
+        cout << "******" << endl;
+        cout << "*****" << endl;
+        cout << "****" << endl;
+        cout << "***" << endl;
+        cout << "**" << endl;
+        cout << "*" << endl;
+    }
+    return 0;
 }
